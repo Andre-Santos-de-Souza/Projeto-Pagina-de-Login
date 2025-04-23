@@ -1,0 +1,105 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 100vh;
+}
+main .section_form{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main .section_form .div_logo{
+    margin-left: -260px;
+    margin-bottom: 40px;
+}
+main .section_form .form{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-color: #dddddd25;
+}
+main .section_form .form h1{
+    color: #1e293b;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+main .section_form .form p{
+    color: #475569;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+main .section_form .form a{
+    color: #7c3aed;
+    font-weight: 600;
+}
+main .section_form .form input{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    border: .5px solid rgba(128, 128, 128, 0.315);
+}main .section_form .form input:focus{
+    border: 1px solid rgb(137, 5, 5);
+    outline: none;
+}
+main .section_form .form .label_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .section_form .form label{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #1e293b;
+    font-weight: 600;
+}
+main .section_form .form button{
+    background-color: #7c3aed;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.input_senha {
+    position: relative;
+    width: 100%;
+}
+
+.input_senha input {
+    padding-right: 40px; 
+}
+
+.input_senha .toggle_senha {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+main .section_img{
+    z-index: 10;
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+}
