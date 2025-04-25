@@ -12,25 +12,27 @@
     </header>
     <main>
         <section class="section_form">
-            <div class="div_logo">
-                <img src="assets/logo.svg" alt="Logo" class="img_logo">
+            <div class="form_container">
+                <div class="div_logo">
+                    <img src="assets/logo.svg" alt="Logo" class="img_logo">
+                </div>
+                <form action="#" class="form" autocomplete="off">
+                    <h1>Acesse a plataforma</h1>
+                    <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+                    <label for="idEmail">E-mail</label>
+                    <input type="email" name="email" id="idEmail" required placeholder="Digite seu e-mail">
+                    <div class="label_link">
+                        <label for="idSenha">Senha</label>
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+                    <div class="input_senha">
+                        <input type="password" name="senha" id="idSenha" required placeholder="Digite sua senha">
+                        <img src="assets/eye-off.svg" alt="Mostrar senha" class="toggle_senha">
+                    </div>
+                    <button type="submit">Entrar</button>
+                    <p>Ainda não tem uma conta? <a href="#">Inscreva-se</a></p>
+                </form>
             </div>
-            <form action="#" class="form" autocomplete="off">
-                <h1>Acesse a plataforma</h1>
-                <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
-                <label for="idEmail">E-mail</label>
-                <input type="email" name="email" id="idEmail" required placeholder="Digite seu e-mail">
-                <div class="label_link">
-                    <label for="idSenha">Senha</label>
-                    <a href="#">Esqueceu a senha?</a>
-                </div>
-                <div class="input_senha">
-                    <input type="password" name="senha" id="idSenha" required placeholder="Digite sua senha">
-                    <img src="assets/eye-off.svg" alt="Mostrar senha" class="toggle_senha">
-                </div>
-                <button type="submit">Entrar</button>
-                <p>Ainda não tem uma conta? <a href="#">Inscreva-se</a></p>
-            </form>
         </section>
         <section class="section_img"></section>
     </main>

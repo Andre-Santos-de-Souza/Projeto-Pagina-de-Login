@@ -128,7 +128,7 @@ main .section_img{
         flex-direction: column;
     }
     main .section_form .div_logo{
-        margin-left: -260px;
+        margin-left: -5px;
         margin-bottom: 40px;
     }
     main .section_form .form{
