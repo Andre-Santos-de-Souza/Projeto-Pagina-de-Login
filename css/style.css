@@ -27,7 +27,6 @@ main .section_form{
     flex-direction: column;
 }
 main .section_form .div_logo{
-    margin-left: -260px;
     margin-bottom: 40px;
 }
 main .section_form .form{
